@@ -68,12 +68,4 @@ py -m streamlit run dashboard\dashboard.py
 
 Streamlit akan menampilkan alamat lokal di terminal, biasanya `http://localhost:8501`. Buka alamat tersebut di browser.
 
-## Men-deploy ke Streamlit Community Cloud
 
-Unggah seluruh proyek ke repository GitHub. Di Streamlit Community Cloud, pilih repository dan branch yang digunakan, lalu isi **Main file path** dengan:
-
-```text
-dashboard/dashboard.py
-```
-
-Pastikan `requirements.txt` berada di root repository dan `dashboard/main_data.csv` ikut diunggah.
